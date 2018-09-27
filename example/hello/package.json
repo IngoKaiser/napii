@@ -1,0 +1,13 @@
+{
+  "name": "hello",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha",
+    "postinstall": "node-gyp configure build"
+  },
+  "devDependencies": {
+    "node-gyp": "^3.8.0",
+    "mocha": "^5.2.0"
+  }
+}
