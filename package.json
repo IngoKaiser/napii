@@ -1,6 +1,6 @@
 {
   "name": "napii",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "N-API Importer for your node.js application",
   "repository": {
     "type": "git",
