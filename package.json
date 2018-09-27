@@ -1,14 +1,17 @@
 {
   "name": "napii",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "N-API Importer for your node.js application",
-  "repository": "pandatechnology/napii",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pandatechnology/napii.git"
+  },
   "keywords": [
     "N-API",
     "native module",
     "cpp"
   ],
-  "author": "Ingo Kaiser",
+  "author": "Ingo Kaiser <kaiser@panda.technology> (https://panda.technology)",
   "license": "MIT",
   "main": "index.js",
   "bin": "bin.js",
