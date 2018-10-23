@@ -42,7 +42,7 @@ if (help || args.length === 0 || !(a || b)) {
   }
 } else if (a) {
   if (!process.argv[3] || !process.argv[4] || !process.argv[5]) {
-    console.error(`Please rerun with arguments 'Name', Type' and 'Repository'. E.g. 'yarn addNative hello git path/to/your/helloRepo.git'`)
+    console.error(`Please rerun with arguments 'Name', Type' and 'Repository'. E.g. 'napii -a hello git path/to/your/helloRepo.git'`)
   } else if (process.argv[4]!='git') {
     console.error(`Only Type: 'git' supported at the moment`)
   } else {

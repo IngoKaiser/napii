@@ -87,7 +87,7 @@ This adds dependecy to your package.json like example below.
   napii -b
 
   # For automised build add to your npm scripts
-  "preinstall": "napii -b"
+  "postinstall": "napii -b"
 ```
 
 ```bash
